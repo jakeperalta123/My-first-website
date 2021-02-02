@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Coconut expense tracker </h1>
+    <img src="https://img.hunkercdn.com/630x/clsd/getty/90ae1b9e2eea4de3b9c3ec98fc380ba6.jpg?type=webp">
+    <form id="a" >
+        <label for="date">Date</label>
+        <input type="date" id="date" >
+        <label for="categories">Categories</label>
+        <select id="categories">
+            <option value="default" disabled="disabled" selected>choose...</option>
+            <option value="groceries">groceries</option>
+            <option value="traffic">traffic</option>
+            <option value="food">food</option>
+            <option value="leisure">leisure</option>
+        </select>
+        <label for="spending">Spending</label>
+        <input type="text" id="spending">
+        <input type="button" id="submit" value="submit">
+    </form>
+    <table style="width: 100%" id="b">
+        <tr>
+            <th>Date</th>
+            <th>categories</th>
+            <th>Spending</th>
+        </tr>
+    </table>
+    <h4>Total expense: <img src="http://www.pngmart.com/files/10/Gold-Dollar-Sign-PNG-Free-Download.png" width="50px"><span id="total">0</span></h4>
+    <script src="index.js"></script>
+</body>
+</html>

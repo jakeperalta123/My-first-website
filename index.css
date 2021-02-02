@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-size:300%;
+    color: #2fa9da;
+    
+    background-color:rgb(222, 236, 169)
+}
+
+select,input{
+    font-size:80%;
+}
+
+
+
+
